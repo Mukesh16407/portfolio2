@@ -25,7 +25,7 @@ const Projects = () => {
             image: 'https://github.com/Mukesh16407/git_2nd/blob/master/dermstore.png?raw=true',
             project_desc:
                 'This is an E-Commerce website which was created in 1999 by a dermatologist who wanted to better serve his patients with easier access to the treatments their skin needed. hard-to-find spa care and natural beauty brands, professional hair care and makeup products, and specialty brands from around the world.',
-            deploy_link: 'https://app.netlify.com/sites/dermstore-u2/overview',
+            deploy_link: 'https://dermstore-u2.netlify.app/',
             repo_link: 'https://github.com/Mukesh16407/Dermstor_Clone',
             tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />],
         },
@@ -35,7 +35,7 @@ const Projects = () => {
             image: 'https://github.com/Mukesh16407/git_2nd/blob/master/healthmug.png?raw=true',
             project_desc:
                 'HealthMug is an online Homeopathy & Unani medicines and to improve the health of the consumers in a holistic way. With an ever-expanding range of products and services, Healthmug is growing rapidly and seeks to become a one-stop portal for all healthcare needs.',
-            deploy_link: 'https://app.netlify.com/sites/my-healthmug-clone/overview',
+            deploy_link: 'https://unit4-ebay.netlify.app/',
             repo_link: 'https://github.com/shivamongit/Healthmug-clone-cw-project',
             tech_stack: [
                 <FaHtml5 />,
@@ -68,7 +68,7 @@ const Projects = () => {
             image: 'https://github.com/Mukesh16407/git_2nd/blob/master/movies2.png?raw=true',
             project_desc:
                 'A Movie platform that allows users to search and watch trailers of a wide variety of movies.',
-            deploy_link: '',
+            deploy_link: 'https://my-moviesapi.netlify.app/',
             repo_link: 'https://github.com/Mukesh16407/movies_api',
             tech_stack: [
                 <FaNodeJs />,

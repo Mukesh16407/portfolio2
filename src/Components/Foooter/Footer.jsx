@@ -8,7 +8,7 @@ const Footer = () => {
             {/* </FooterLink> */}
             <FooterCont>
                 <A
-                    href='https://github.com/Mukesh16407'
+                    href=' https://muknewportfolio.netlify.app'
                     target='_blank'
                     rel='noreferrer'
                 >
