@@ -29,11 +29,7 @@ const socialMediaLinks = [
         link: 'https://twitter.com/mkvermashk',
         icon: <FaTwitter />,
     },
-    /* {
-        id: 3,
-        link: 'https://leetcode.com/aadityaneve',
-        icon: <SiLeetcode />,
-    }, */
+    
 ];
 const About = () => {
     return (

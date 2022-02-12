@@ -94,7 +94,7 @@ const Projects = () => {
             project_name: 'You-tube Clone',
             image: 'https://github.com/Mukesh16407/git_2nd/blob/master/youtube2.png?raw=true',
             project_desc:
-                'Its a app look similar to youtube.also add some functionalty similar to youtube',
+                'Its a app look similar to YouTube. Also add some functionality similar to YouTube',
             deploy_link: '',
             repo_link: 'https://github.com/Mukesh16407/youtube_clone',
             tech_stack: [<FaJs />, <FaHtml5 />, <FaCss3 />],
