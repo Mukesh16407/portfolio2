@@ -100,15 +100,18 @@ const Contact = () => {
 
         emailjs
             .send(
-                'service_73nxajb',
-                'template_g8iqlva',
+                //'service_73nxajb',
+                'service_qmzjmuh',
+                //'template_g8iqlva',
+                'template_ua4r7a1',
                 {
                     name: name.value,
                     email: email.value,
                     subject: subject.value,
                     message: message.value,
                 },
-                'user_EnJXFXSrCu2oExDbUCpNz'
+                'user_kDPTR0O7SQ7qmHimgboaX'
+                //'user_EnJXFXSrCu2oExDbUCpNz'
             )
             .then(
                 function (response) {
