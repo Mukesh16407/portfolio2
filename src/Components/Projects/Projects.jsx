@@ -35,7 +35,7 @@ const Projects = () => {
             image: 'https://github.com/Mukesh16407/git_2nd/blob/master/healthmug.png?raw=true',
             project_desc:
                 'HealthMug is an online Homeopathy & Unani medicines and to improve the health of the consumers in a holistic way. With an ever-expanding range of products and services, Healthmug is growing rapidly and seeks to become a one-stop portal for all healthcare needs.',
-            deploy_link: 'https://unit4-ebay.netlify.app/',
+            deploy_link: 'https://salavisushant.github.io/Healthmug-final.github.io/',
             repo_link: 'https://github.com/shivamongit/Healthmug-clone-cw-project',
             tech_stack: [
                 <FaHtml5 />,
