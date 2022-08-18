@@ -75,10 +75,10 @@ export const HeaderLi = styled.li`
     &:first-child {
         margin-left: 0;
     }
-    &:hover {
+    /* &:hover {
         background: ${(props) => props.theme.commonBorder};
         border: 2px solid transparent;
-    }
+    } */
 `;
 export const JelloHori = styled.div`
     /* -webkit-animation: jello-horizontal 0.9s both; */

@@ -3,7 +3,6 @@ import { HeaderContent, H1, P, A, HeaderButtons, TypeWriterH1 } from './Styles';
 import { Container } from '../../SharedStyles/SharedStyles';
 import { Link } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
-
 const Banner = () => {
     return (
         <Container className='home'>
@@ -46,7 +45,16 @@ const Banner = () => {
                         >
                             <A>Projects</A>
                         </Link>
-                        
+                        &nbsp;&nbsp;&nbsp;
+                        <A 
+                            target='_blank'
+                            rel='noreferrer'
+                            href=''
+                        >
+                           
+                            8295535138
+                        </A>
+                       
                     </HeaderButtons>
                 </div>
             </HeaderContent>

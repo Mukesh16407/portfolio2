@@ -13,7 +13,7 @@ import { Container, Common, H1 } from '../../SharedStyles/SharedStyles';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaHtml5, FaReact, FaJs, FaCss3 } from 'react-icons/fa';
 import { SiMongodb, SiNodeDotJs, SiRedux, SiHeroku } from 'react-icons/si';
-// import { SiExpress, SiMaterialui } from 'react-icons/si/SiExpress';
+//import { SiExpress, SiMaterialui } from 'react-icons/si/SiExpress';
 
 import { v4 as uuidv4 } from 'uuid';
 
@@ -31,17 +31,21 @@ const Projects = () => {
         },
         {
             id: 2,
-            project_name: 'HealthMug',
-            image: 'https://github.com/Mukesh16407/git_2nd/blob/master/healthmug.png?raw=true',
+            project_name: 'Kickstart',
+            image: '/ProjectImages/kickstarter-image.png',
             project_desc:
-                'HealthMug is an online Homeopathy & Unani medicines and to improve the health of the consumers in a holistic way. With an ever-expanding range of products and services, Healthmug is growing rapidly and seeks to become a one-stop portal for all healthcare needs.',
-            deploy_link: 'https://salavisushant.github.io/Healthmug-final.github.io/',
-            repo_link: 'https://github.com/shivamongit/Healthmug-clone-cw-project',
+                'Kickstarter PBC is a funding platform for creative projects. Everything from films, games, and music to art, design, and technology.it is full of ambitious, innovative, and imaginative ideas.',
+            deploy_link: 'https://kickstarter-psi.vercel.app/',
+            repo_link: 'https://github.com/Ravi-Krt-Patel/KICKSTARTER',
             tech_stack: [
                 <FaHtml5 />,
                 <FaCss3 />,
                 <FaJs />,
+                <SiHeroku />,
                 <FaNodeJs />,
+                <FaReact/>,
+                <SiRedux />,
+                <SiMongodb />,
             ],
         },
         {
@@ -49,15 +53,16 @@ const Projects = () => {
             project_name: 'ebay',
             image: 'https://github.com/Mukesh16407/git_2nd/blob/master/ebay1.png?raw=true',
             project_desc:
-                "eBay Inc.which is an American multinational e-commerce corporation based in San Jose, California, that facilitates consumer-to-consumer and business-to-consumer sales through its website.eBay is a multibillion-dollar business with operations in about 32 countries, as of 2019.In addition to eBay's original style sales.",
-            deploy_link: 'https://app.netlify.com/sites/unit4-ebay/overview',
+                "eBay Inc.which is an American multinational e-commerce corporation based in San Jose, California, that facilitates consumer-to-consumer and business-to-consumer sales through its website.eBay is a multibillion-dollar business with operations in about 32 countries, as of 2019.",
+            deploy_link: 'https://unit4-ebay.netlify.app/',
             repo_link: 'https://github.com/Sweta-Swarnakar/ebay-clone',
             tech_stack: [
-                <SiRedux />,
                 // <SiMaterialui />,
+                <FaHtml5 />,
+                <FaCss3 />,
+                <FaJs />,
                 <SiMongodb />,
-                // <SiExpress />,
-                <AiFillGithub />,
+                 //<SiExpress />,
                 <FaJs />,
                 <FaNodeJs />,
             ],
@@ -65,39 +70,38 @@ const Projects = () => {
         {
             id: 4,
             project_name: 'Movie-App',
-            image: 'https://github.com/Mukesh16407/git_2nd/blob/master/movies2.png?raw=true',
+            image: '/projectImages/entertenment.png',
             project_desc:
-                'A Movie platform that allows users to search and watch trailers of a wide variety of movies.',
-            deploy_link: 'https://my-moviesapi.netlify.app/',
-            repo_link: 'https://github.com/Mukesh16407/movies_api',
+                'A Movie platform that allows users to search movies, filter the movies show all details of movies show all crew of the movies and also show trailer of selected movie',
+            deploy_link: 'https://celebrated-swan-2458ec.netlify.app/',
+            repo_link: 'https://github.com/Mukesh16407/EntertenmentHub',
             tech_stack: [
-                <FaNodeJs />,
-                <SiMongodb />,
+               
                 <FaJs />,
-                <SiHeroku />,
+                <FaReact/>,
                 <FaHtml5 />,
                 <FaCss3 />,
             ],
         },
         {
             id: 5,
-            project_name: 'Weather And Google',
-            image: 'https://github.com/Mukesh16407/git_2nd/blob/master/weatherandGoogle_api.png?raw=true',
+            project_name: 'Weather App',
+            image: '/projectimages/reactWeather.png',
             project_desc:
-                'A simple App which is used for Seven Day forcasting  weather and location.Also add tempterature and  wind Speed.',
-            deploy_link: 'https://my-weathermap.netlify.app/',
-            repo_link: 'https://github.com/Mukesh16407/weaterandGoolemap',
-            tech_stack: [ <FaJs />, <FaHtml5 />, <FaCss3 />],
+                'This App which is used for Seven Day forecasting  User can also show daily and weekly graph according to weather condition',
+            deploy_link: 'https://earnest-souffle-723ed6.netlify.app/',
+            repo_link: 'https://github.com/Mukesh16407/React_weather_app',
+            tech_stack: [ <FaJs />, <FaHtml5 />, <FaCss3 />,<FaReact/>,],
         },
         {
             id: 6,
-            project_name: 'You-tube Clone',
-            image: 'https://github.com/Mukesh16407/git_2nd/blob/master/youtube2.png?raw=true',
+            project_name: 'Real-chat-App',
+            image: '/projectImages/reactChat.png',
             project_desc:
-                'Its a app look similar to YouTube. Also add some functionality similar to YouTube',
-            deploy_link: '',
-            repo_link: 'https://github.com/Mukesh16407/youtube_clone',
-            tech_stack: [<FaJs />, <FaHtml5 />, <FaCss3 />],
+                ' A realtime updating application to chat one to one.User can SignIn/SignUp using Firebase authentication.this app is under progress',
+            deploy_link: 'https://dainty-pithivier-77f732.netlify.app/',
+            repo_link: 'https://github.com/Mukesh16407/react-chatApp',
+            tech_stack: [<FaJs />, <FaHtml5 />, <FaCss3 />,<FaReact/>],
         },
     ];
 
