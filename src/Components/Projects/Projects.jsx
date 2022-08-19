@@ -33,7 +33,7 @@ const Projects = () => {
             project_name: 'Kickstart',
             image: '/ProjectImages/kickstarter-image.png',
             project_desc:
-                'Kickstarter PBC is a funding platform for creative projects. Everything from films, games, and music to art, design, and technology.it is full of ambitious, innovative, and imaginative ideas.',
+                'Kickstarter PBC is a funding platform for creative projects. Everything from films, games, and music to art, design, and technology. Kickstarter is full of ambitious, innovative, and imaginative ideas that are brought to life through the direct support of others.',
             deploy_link: 'https://kickstarter-psi.vercel.app/',
             repo_link: 'https://github.com/Ravi-Krt-Patel/KICKSTARTER',
             tech_stack: [
@@ -97,7 +97,7 @@ const Projects = () => {
             project_name: 'Real-chat-App',
             image: '/projectImages/reactChat.png',
             project_desc:
-                ' A realtime updating application to chat one to one.User can SignIn/SignUp using Firebase authentication.this app is under progress',
+                ' A realtime updating application to chat one to one.User can SignIn/SignUp using Firebase authentication.Text messages are stored using Firestore collections.this app is under progress',
             deploy_link: 'https://dainty-pithivier-77f732.netlify.app/',
             repo_link: 'https://github.com/Mukesh16407/react-chatApp',
             tech_stack: [<FaJs />, <FaHtml5 />, <FaCss3 />,<FaReact/>],
