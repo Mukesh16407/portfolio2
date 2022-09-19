@@ -97,7 +97,7 @@ const Projects = () => {
             project_name: 'Doctor Appointment Booking Application',
             image: '/projectImages/doctorAppointment.png',
             project_desc:
-                'Separate User Interfaces for Users, Admins, Doctors and also Manage Users, Doctors, and Appointments from the Admin panel',
+                'Separate User Interfaces for Users, Admins, Doctors and also get Notifications in Users, Admin, and Doctors for any update',
             deploy_link: 'https://doctorappointment2.herokuapp.com/login',
             repo_link: 'https://github.com/Mukesh16407/doctorappointment',
             tech_stack: [ <FaHtml5 />,
