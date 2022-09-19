@@ -94,7 +94,7 @@ const Projects = () => {
         },
         {
             id: 6,
-            project_name: 'Doctor Appointment Booking Application',
+            project_name: 'Doctor Appointment Booking App',
             image: '/projectImages/doctorAppointment.png',
             project_desc:
                 'Separate User Interfaces for Users, Admins, Doctors and also get Notifications in Users, Admin, and Doctors for any update',
