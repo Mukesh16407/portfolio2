@@ -94,13 +94,19 @@ const Projects = () => {
         },
         {
             id: 6,
-            project_name: 'Real-chat-App',
-            image: '/projectImages/reactChat.png',
+            project_name: 'Doctor Appointment Booking Application',
+            image: '/projectImages/doctorAppointment.png',
             project_desc:
-                ' A realtime updating application to chat one to one.User can SignIn/SignUp using Firebase authentication.Text messages are stored using Firestore collections.this app is under progress',
-            deploy_link: 'https://dainty-pithivier-77f732.netlify.app/',
-            repo_link: 'https://github.com/Mukesh16407/react-chatApp',
-            tech_stack: [<FaJs />, <FaHtml5 />, <FaCss3 />,<FaReact/>],
+                'Separate User Interfaces for Users, Admins, Doctors and also Manage Users, Doctors, and Appointments from the Admin panel',
+            deploy_link: 'https://doctorappointment2.herokuapp.com/login',
+            repo_link: 'https://github.com/Mukesh16407/doctorappointment',
+            tech_stack: [ <FaHtml5 />,
+            <FaJs />,
+            <SiHeroku />,
+            <FaNodeJs />,
+            <FaReact/>,
+            <SiRedux />,
+            <SiMongodb />,],
         },
     ];
 
