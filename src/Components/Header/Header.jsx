@@ -45,15 +45,7 @@ const Banner = () => {
                         >
                             <A>Projects</A>
                         </Link>
-                        &nbsp;&nbsp;&nbsp;
-                        <A 
-                            target='_blank'
-                            rel='noreferrer'
-                            href=''
-                        >
-                           
-                            8295535138
-                        </A>
+                     
                        
                     </HeaderButtons>
                 </div>
