@@ -21,7 +21,7 @@ const Projects = () => {
         {
             id: 1,
             project_name: 'Derm Stores',
-            image: 'https://github.com/Mukesh16407/git_2nd/blob/master/dermstore.png?raw=true',
+            image: 'projectImages/dermstore.png',
             project_desc:
                 'This is an E-Commerce website which was created in 1999 by a dermatologist who wanted to better serve his patients with easier access to the treatments their skin needed. hard-to-find spa care and natural beauty brands, professional hair care and makeup products, and specialty brands from around the world.',
             deploy_link: 'https://dermstore-u2.netlify.app/',
@@ -33,7 +33,7 @@ const Projects = () => {
             project_name: 'Kickstart',
             image: '/ProjectImages/kickstarter-image.png',
             project_desc:
-                'Kickstarter PBC is a funding platform for creative projects. Everything from films, games, and music to art, design, and technology. Kickstarter is full of ambitious, innovative, and imaginative ideas that are brought to life through the direct support of others.',
+                'Kickstarter PBC is a funding platform for creative projects. Everything from films, games, and music to art, design, and technology.It  is full of ambitious, innovative, and imaginative ideas that are brought to life through the direct support of others.',
             deploy_link: 'https://kickstarter-psi.vercel.app/',
             repo_link: 'https://github.com/Ravi-Krt-Patel/KICKSTARTER',
             tech_stack: [
@@ -50,7 +50,7 @@ const Projects = () => {
         {
             id: 3,
             project_name: 'ebay',
-            image: 'https://github.com/Mukesh16407/git_2nd/blob/master/ebay1.png?raw=true',
+            image: '/projectImages/ebay1.png',
             project_desc:
                 "eBay Inc.which is an American multinational e-commerce corporation based in San Jose, California, that facilitates consumer-to-consumer and business-to-consumer sales through its website.eBay is a multibillion-dollar business with operations in about 32 countries, as of 2019.",
             deploy_link: 'https://unit4-ebay.netlify.app/',

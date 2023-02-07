@@ -36,7 +36,7 @@ const About = () => {
         <Container className='about'>
             <AboutDiv>
                 <Column>
-                    <Img src='https://github.com/Mukesh16407/git_2nd/blob/master/_DSC0114.JPG?raw=true' alt='my image' />
+                    <Img src='images/my-avatar.png' alt='my image' />
                 </Column>
                 <Column>
                     <H1>About Me</H1>
