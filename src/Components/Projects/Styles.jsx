@@ -31,6 +31,7 @@ export const BoxDiv = styled.div`
 
 export const ServiceBox = styled.div`
     padding-bottom: 5px;
+    
     background: ${(props) => props.theme.cardColor};
     color: ${(props) => props.theme.fontColorSecondary};
     box-shadow: 0px 12px 24px rgb(2 30 84 / 10%);

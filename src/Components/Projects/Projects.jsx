@@ -84,13 +84,13 @@ const Projects = () => {
         },
         {
             id: 5,
-            project_name: 'Weather App',
-            image: '/projectimages/reactWeather.png',
+            project_name: 'MERN Stack Project',
+            image: '/projectimages/mernhomepage.png',
             project_desc:
-                'This App which is used for Seven Day forecasting  User can also show daily and weekly graph according to weather condition',
-            deploy_link: 'https://earnest-souffle-723ed6.netlify.app/',
-            repo_link: 'https://github.com/Mukesh16407/React_weather_app',
-            tech_stack: [ <FaJs />, <FaHtml5 />, <FaCss3 />,<FaReact/>,],
+                'This is mern project with all advance functionality like serach, filter,pagination  with all curd operation.',
+            deploy_link: 'https://willowy-pasca-91d228.netlify.app/',
+            repo_link: 'https://github.com/Mukesh16407/frontend-primeproject',
+            tech_stack: [ <FaJs />, <FaHtml5 />, <FaCss3 />,<FaReact/>,<FaNodeJs />,<SiMongodb />],
         },
         {
             id: 6,
@@ -116,7 +116,7 @@ const Projects = () => {
                 <Common>
                     <H1>Projects</H1>
                 </Common>
-                <Row>
+                <Row >
                     {projects.map((item) => (
                         <BoxDiv key={uuidv4()}>
                             <ServiceBox>
