@@ -33,7 +33,8 @@ const Projects = () => {
       image: "/ProjectImages/mern-ecommercde.png",
       project_desc:
         "Our eCommerce solution provides a seamless, user-friendly experience with an extensive product catalog, including electronics, fashion, and home essentials. Intuitive search, secure payment options, and swift checkout ensure a hassle-free, satisfying shopping experience for modern shoppers.",
-      deploy_link: "https://bright-daffodil-2a4ad3.netlify.app/",
+      deploy_link:
+        "https://ecommerce-frontend-bdrebukv6-mukesh16407s-projects.vercel.app/",
       repo_link: "https://github.com/Mukesh16407/mern-ecommerce",
       tech_stack: [
         <FaHtml5 />,
