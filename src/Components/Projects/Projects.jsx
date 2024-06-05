@@ -29,12 +29,12 @@ const Projects = () => {
     },
     {
       id: 2,
-      project_name: "Kickstart",
-      image: "/ProjectImages/kickstarter-image.png",
+      project_name: "Mern-Ecommerce",
+      image: "/ProjectImages/mern-ecommercde.png",
       project_desc:
-        "Kickstarter PBC is a funding platform for creative projects. Everything from films, games, and music to art, design, and technology.It  is full of ambitious, innovative, and imaginative ideas that are brought to life through the direct support of others.",
-      deploy_link: "https://kickstarter-psi.vercel.app/",
-      repo_link: "https://github.com/Ravi-Krt-Patel/KICKSTARTER",
+        "Our eCommerce solution provides a seamless, user-friendly experience with an extensive product catalog, including electronics, fashion, and home essentials. Intuitive search, secure payment options, and swift checkout ensure a hassle-free, satisfying shopping experience for modern shoppers.",
+      deploy_link: "https://bright-daffodil-2a4ad3.netlify.app/",
+      repo_link: "https://github.com/Mukesh16407/mern-ecommerce",
       tech_stack: [
         <FaHtml5 />,
         <FaCss3 />,
@@ -51,7 +51,7 @@ const Projects = () => {
       project_name: "ebay",
       image: "/projectImages/ebay1.png",
       project_desc:
-        "eBay Inc.which is an American multinational e-commerce corporation based in San Jose, California, that facilitates consumer-to-consumer and business-to-consumer sales through its website.eBay is a multibillion-dollar business with operations in about 32 countries, as of 2019.",
+        "eBay Inc., an American multinational e-commerce corporation headquartered in San Jose, California, facilitates consumer-to-consumer and business-to-consumer sales through its website. Operating in approximately 32 countries as of 2019, eBay is a multibillion-dollar enterprise known for its global presence and diverse marketplace offerings.",
       deploy_link: "https://unit4-ebay.netlify.app/",
       repo_link: "https://github.com/Sweta-Swarnakar/ebay-clone",
       tech_stack: [
@@ -80,7 +80,7 @@ const Projects = () => {
       project_name: "MERN Stack Project",
       image: "/projectimages/mernhomepage.png",
       project_desc:
-        "This is mern project with all advance functionality like serach, filter,pagination  with all curd operation.",
+        "This MERN project showcases search, filtering, pagination, and CRUD operations, enriching data management and enhancing user interaction.",
       deploy_link: "https://willowy-pasca-91d228.netlify.app/",
       repo_link: "https://github.com/Mukesh16407/frontend-primeproject",
       tech_stack: [
@@ -98,8 +98,9 @@ const Projects = () => {
       image: "/projectImages/doctorAppointment.png",
       project_desc:
         "Separate User Interfaces for Users, Admins, Doctors and also get Notifications in Users, Admin, and Doctors for any update",
-      deploy_link: "https://doctorappointment2.herokuapp.com/login",
-      repo_link: "onlineappointment.netlify.app/",
+      deploy_link:
+        "https://doctorappointment-frontend-girednemx-mukesh16407s-projects.vercel.app/login",
+      repo_link: "https://github.com/Mukesh16407/doctorappointment",
       tech_stack: [
         <FaHtml5 />,
         <FaJs />,

@@ -41,7 +41,7 @@ const About = () => {
           <H1>About Me</H1>
           <AboutInfo>
             <AboutInfoP>
-              With 1.2 years of experience in software engineering, expertise
+              With 1.5 years of experience in software engineering, expertise
               lies in application layers, presentation layers, and databases.
               Proficient in problem-solving and possessing a strong aptitude,
               focus remains on continuous improvement. Thriving in dynamic
