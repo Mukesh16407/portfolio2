@@ -99,8 +99,8 @@ const Projects = () => {
       image: "/projectImages/doctorAppointment.png",
       project_desc:
         "Separate User Interfaces for Users, Admins, Doctors and also get Notifications in Users, Admin, and Doctors for any update",
-      deploy_link:
-        "https://doctorappointment-frontend-girednemx-mukesh16407s-projects.vercel.app/login",
+      deploy_link: "https://doctorappointment-frontend-snowy.vercel.app/login",
+
       repo_link: "https://github.com/Mukesh16407/doctorappointment",
       tech_stack: [
         <FaHtml5 />,
